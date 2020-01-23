@@ -1,0 +1,47 @@
+(1) Algorithm for the sum of the elements of an array
+
+INPUT		PROCESSING			OUTPUT
+Array of ints	Loop through array	
+		
+		Add the number at each		Sum of the array values
+		index to an int variable
+			             
+Control Structures: Sequence, Repetition
+Variables: int, int []
+
+Loop through array
+Add the number at each index of an array to an int variable initalized to 0.
+Return the int variable, which is also the sum of the array
+
+[1, 2, 3]
+sum = element at index 0 + element at index 1 + element at index 2 = 1 + 2 + 3 = 6
+
+[5, 10]
+sum = element at index 0 + element at index 1 = 5 + 10 = 15
+
+(2) Algorithm for the mean of the elements of an array
+
+INPUT		PROCESSING			OUTPUT
+Array of ints	Loop through array	
+		
+		Add the number at each
+		index to an int variable
+		
+		Divide the value of the		Mean of the array values		
+		int variable by the length 
+		of the array
+			             
+Control Structures: Sequence, Repetition
+Variables: int, int []
+
+Loop through array
+Add the number at each index of an array to an int variable initalized to 0.
+Divide the int variable by the length of the array, which will output the mean of the elements. 
+
+[1, 2, 3]
+mean = (element at index 0 + element at index 1 + element at index 2) / length of array
+= (1 + 2 + 3)/3 = 6/3 = 2
+
+[6, 10]
+mean = (element at index 0 + element at index 1) / length of array
+= (6 + 10)/2 = 16/2 = 8
